@@ -1,0 +1,81 @@
+/* Map of English teachers in Hamburg with the option to filter by area of expertise
+Project by A. Bales, C.-M. Forke, D. Szablowski
+HAW Hamburg, Faculty Engineering & Computer Science, Technical English (L. Harris), Summer Semester 2019
+2019-05-02 */
+
+html {
+  -webkit-tap-highlight-color: transparent;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#mapid {
+  height: 90%;
+}
+
+#specialisations {
+  text-align: center;
+  margin: 5px;
+}
+
+button {
+  cursor: pointer;
+  margin-right: .25rem;
+  margin-bottom: .25rem;
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  -webkit-appearance: button;
+  text-transform: none;
+  overflow: visible;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+button:focus {
+  outline: 0;
+  box-shadow: 0;
+}
+
+button:hover {
+  text-decoration: none;
+}
+
+button.active {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+button.active:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+button.inactive {
+  color: #6c757d;
+  border-color: #6c757d;
+}
+
+button.inactive:hover {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
